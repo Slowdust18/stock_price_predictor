@@ -25,6 +25,14 @@ with colinput:
     url = "https://finance.yahoo.com/"
     st.write("We use Yahoo Finance to train and test the model so use the below link to get stock codes")
     st.write("For stock codes go to this website [link](%s)" % url)
+    
+    # Github link to project code
+    st.write("Github link to project code")
+    st.markdown(
+    "[![GitHub](https://img.shields.io/badge/Source%20Code-GitHub-blue?logo=github)](https://github.com/Slowdust18/stock_price_predictor.git)",
+    unsafe_allow_html=True
+    )
+
 
 # Getting current date
 end=datetime.now()
